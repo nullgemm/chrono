@@ -13,7 +13,7 @@ INCL = -I$(SRCD)
 
 FINAL = $(SRCD)/main.c
 
-SRCS = $(SRCD)/chrono.c
+SRCS = $(SRCD)/chrono_nix.c
 
 FINAL_OBJS:= $(patsubst %.c,$(OBJD)/%.o,$(FINAL))
 SRCS_OBJS := $(patsubst %.c,$(OBJD)/%.o,$(SRCS))
